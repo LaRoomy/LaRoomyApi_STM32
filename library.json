@@ -1,0 +1,26 @@
+{
+    "name": "LaRoomyApiSTM32Lib",
+    "version": "1.0.0",
+    "description": "LaRoomy App remote framework to quickly implement remote control capabilities to embedded projects",
+    "authors":
+    {
+        "name": "Hans Philipp Zimmermann",
+        "email": "info@laroomy.de",
+        "url": "https://api.laroomy.com",
+        "maintainer": true
+    },
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/LaRoomy/LaRoomyApi_STM32"
+    },
+    "dependencies":
+    {
+        "arduino-libraries/ArduinoBLE": "^1.3.1"
+    },
+    "license": "MIT",
+    "homepage": "https://api.laroomy.com",
+    "frameworks": "arduino",
+    "platforms": ["ststm32"],
+    "headers": "LaRoomyApi_STM32.h"
+}
